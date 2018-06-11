@@ -1,0 +1,25 @@
+<!--
+ - Created by Scott McClung on 6/6/18.
+ -->
+
+<aura:component access="global" description="nlib_flowHeader"
+                implements="lightning:availableForFlowScreens">
+
+    <aura:attribute name="headerText" type="String" default=""/>
+    <aura:attribute name="headerStyleClass" type="String" default=""/>
+
+    <div class="slds-p-top--medium slds-p-bottom--medium slds-clearfix">
+        <div class="slds-grid">
+            <div class="slds-size_1-of-1">
+                <aura:if isTrue="{! v.headerText ne null }">
+                    <div class="{! v.headerStyleClass }">{! v.headerText }</div>
+                </aura:if>
+            </div>
+            <div class="slds-float_right" style="position:relative; margin-left: -0.5em;">
+                <aura:if isTrue="{!v.screenHelpText ne null}">
+                    <lightning:helptext content="{!v.screenHelpText}"/>
+                </aura:if>
+            </div>
+        </div>
+    </div>
+</aura:component>

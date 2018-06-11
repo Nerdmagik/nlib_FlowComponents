@@ -1,0 +1,8 @@
+<!--
+ - Created by Scott McClung on 6/6/18.
+ -->
+
+<design:component>
+    <design:attribute name="headerText" label="Header Text"></design:attribute>
+    <design:attribute name="headerStyleClass" label="Header Text SLDS Classes"></design:attribute>
+</design:component>
