@@ -1,6 +1,12 @@
 # Flow Components
+[![Deploy to SFDX](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com?template=https://github.com/nerdmagik/nlib_FlowComponents)
+
+[![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com?owner=nerdmagik&repo=nlib_FlowComponents)
 
 A set of custom lightning component designed to be used in the Salesforce Visual Flow screens.
+
+### Installation
+Use the 'Deploy to SFDX' button to install into a scratch org or use the 'Deploy to Salesforce' button to install into a sandbox or developer org.
 
 ### nlib_flowHeader
 Provides the ability to display text styled by Lightning Design System classes.  Also displays the optional screen help text as a tooltip if it is present in your configuration.
